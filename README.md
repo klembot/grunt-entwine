@@ -91,7 +91,7 @@ repository](https://bitbucket.org/klembot/twinejs/src/), under the
 `story-formats` directory. Make sure to download the appropriate file named
 `format.js`. You don't need any other file from the repository.
 
-#### options.storyName
+#### options.name
 Type: `String`
 Default value: `none`
 
