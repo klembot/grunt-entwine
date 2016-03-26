@@ -107,7 +107,7 @@ The example below shows how to create a single story file from several ones.
 grunt.initConfig({
 	entwine: {
 		files: {
-			'dest/My Finished Story': [
+			'dest/My Finished Story.html': [
 				'/Users/Me/Documents/Twine/Stories/Part 1.html',
 				'/Users/Me/Documents/Twine/Stories/Part 2.html'
 			],
@@ -117,4 +117,4 @@ grunt.initConfig({
 ```
 
 ## Release History
-0.1.0: Initial version.
+1.0.0: Initial version.
