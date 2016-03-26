@@ -1,0 +1,29 @@
+{
+  "name": "grunt-entwine",
+  "description": "A Grunt plugin for assembling Twine 2 story files from multiple story files, JavaScript, and CSS source files.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Chris Klimas",
+    "email": "chris@twinery.org"
+  },
+  "repository": {
+    "type": "hg",
+    "url": "https://bitbucket.org/klembot/grunt-entwine"
+  },
+  "bugs": {
+    "url": "https://bitbucket.org/klembot/grunt-entwine/issues"
+  },
+  "licenses": [
+    {
+      "type": "GPL-3.0",
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
