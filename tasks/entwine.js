@@ -37,10 +37,16 @@ module.exports = function(grunt) {
 						case '.js':
 							story.mergeJavaScript(src);
 							break;
+
+						case '.tw':
+						case '.txt':
+							story.mergeTwee(src);
+							break;
 							
 						default:
 							grunt.fail.warn("Don't know how to merge " + srcName + "." +
-								"Its extension should be .css, .htm, .html, or .js.");
+								"Its extension should be .css, .htm, .html, " +
+								".tw, .txt, or .js.");
 					}
 				});
 				

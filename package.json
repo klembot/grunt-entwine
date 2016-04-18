@@ -21,9 +21,11 @@
   "engines": {
     "node": ">= 0.8.0"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "keywords": [
     "gruntplugin"
-  ]
+  ],
+  "dependencies": {
+    "twine-utils": "^1.1.0"
+  }
 }

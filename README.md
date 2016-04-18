@@ -52,7 +52,8 @@ The `files` property should look like this:
 ```js
 files: {
 	'generated.html': [
-		'path/to/a/Twine Story.html',
+		'path/to/a/Twine story.html',
+		'path/to/a/Twee file.tw',
 		'path/to/a/JavaScript file.js',
 		'path/to/a/CSS file.css'
 	]
@@ -62,6 +63,7 @@ files: {
 You can add as many entries to the array as you like. Here's how they will be combined:
 
 - Twine story files will combine passages.
+- Twee source code will combine passages.
 - JavaScript files will have their contents appended to the story's JavaScript field.
 - CSS files will have their contents appended to the story's stylesheet field.
 
@@ -117,4 +119,6 @@ grunt.initConfig({
 ```
 
 ## Release History
+1.1.0: Add Twee source support. This doesn't fully support a Twee-only workflow
+yet, as there's no means to indicate what the starting passage should be.
 1.0.0: Initial version.
