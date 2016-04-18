@@ -1,7 +1,7 @@
 {
   "name": "grunt-entwine",
   "description": "A Grunt plugin for assembling Twine 2 story files from multiple story files, JavaScript, and CSS source files.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "Chris Klimas",
     "email": "chris@twinery.org"
