@@ -69,7 +69,8 @@ You can add as many entries to the array as you like. Here's how they will be co
 
 The first story file listed is treated specially. It will:
 
-- Use its starting passage as the generated story file's starting passage.
+- Use its starting passage as the generated story file's starting passage, if
+  you haven't overridden it with the `startPassage` option (see below).
 - Set the generated story's name, if you haven't overridden it with the
   `storyName` option (see below).
 
@@ -100,6 +101,14 @@ Default value: `none`
 The story name to set on the generated story file. If omitted, this will use
 the story name of the first story file you add in the `files` list.
 
+#### options.startPassage
+Type: `String`
+Default value: `none`
+
+The passage name to use as starting point on the generated story file. If
+omitted, this will use the start passage of the first Twine story file you add
+in the `files` list.
+
 ### Usage Examples
 
 #### Simple Configuration
@@ -119,6 +128,7 @@ grunt.initConfig({
 ```
 
 ## Release History
+1.2.0: Add option to set the starting passage.
 1.1.0: Add Twee source support. This doesn't fully support a Twee-only workflow
 yet, as there's no means to indicate what the starting passage should be.
 1.0.0: Initial version.

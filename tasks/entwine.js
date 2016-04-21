@@ -53,6 +53,10 @@ module.exports = function(grunt) {
 				if (opts.name) {
 					story.attributes.name = opts.name;
 				}
+
+				if (opts.startPassage) {
+					story.setStartByName(opts.startPassage);
+				}
 				
 				grunt.file.write(fileGroup.dest, format.publish(story));
 			});
